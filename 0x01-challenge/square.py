@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 """ A module defining the class sqaure"""
+
+
 class square():
     """The sqaure class"""
     width = 0
