@@ -12,6 +12,10 @@ class square():
         """Initialize an object"""
         for key, value in kwargs.items():
             setattr(self, key, value)
+        if self.width < 0:
+            self.width = 0
+        if self.height < 0:
+            self.height = 0
 
     def area_of_my_square(self):
         """ Area of the square """
